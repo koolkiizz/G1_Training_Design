@@ -709,6 +709,15 @@ header .search-form .searchout .right .tbot {
 
 
 /*slide*/
+#slideshow, #slide_carousel {
+	max-height: 740px;
+	overflow: hidden;
+}
+.carousel-inner .carousel-item img {
+    position:relative;
+    top:50%;
+    transform: translateY(-26%);
+}
 .slide-prev, .slide-next {
 	padding: 10px 10px;
 	border-radius: 50%;
