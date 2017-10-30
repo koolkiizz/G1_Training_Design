@@ -53,12 +53,12 @@ ul {
 }
 .carousel-control-prev, .carousel-control-next {
 	opacity: 1 !important;
-	width: 10% !important;
-	top: -35px !important;
+	width: 8% !important;
+	top: -58px !important;
 }
 .carousel-caption {
-	bottom: none;
-	top: 171px;
+	bottom: auto;
+	top: 220px;
 }
 
 
@@ -757,13 +757,13 @@ header .search-form .searchout .right .tbot {
     width: 1843px;
 }
 .slide-prev, .slide-next {
-	padding: 10px 10px;
+	padding: 8px 9px;
 	border-radius: 50%;
 }
 .carousel-caption h3 {
 	font-family: BrownStdRegular;
-	margin-bottom: 22px !important;
-	letter-spacing: -3px;
+	margin-bottom: 23px !important;
+	letter-spacing: -4px;
 }
 .slide-btn, #card-dropdown .mborder .checkout-box .ckbtn {
 	background-color: #30393f;
@@ -809,7 +809,8 @@ header .search-form .searchout .right .tbot {
 #boxes_shop .box.double-height p {
 	position: relative;
 	top: 50%;
-	transform: translateY(-50%); 
+	transform: translateY(-55%) translateX(-1%);
+	line-height: 1 !important; 
 }
 #boxes_shop .box p {
 	font-size: 24px;
@@ -845,15 +846,15 @@ header .search-form .searchout .right .tbot {
 .sec_boxes .title h2 {
 	font-size: 54px;
 	text-align: center;
+	letter-spacing: -3px;
 }
 .sec_boxes .description p {
 	font-size: 18px;
 	color: #777777;
 	text-align: center;
 	max-width: 58%;
-	margin: auto;
+	margin: 0 auto 54px auto;
 	font-family: BrownStdRegular;
-	margin-bottom: 60px;
 }
 .sec_boxes .boxes .box {
 	float: left;
@@ -869,7 +870,7 @@ header .search-form .searchout .right .tbot {
 	width: 100%;
 }
 .sec_boxes .boxes .box .box-title {
-	padding: 38px 0;
+	padding: 32px 0;
 	text-align: center;
 	color: white;
 	width: 100%;
@@ -891,47 +892,64 @@ header .search-form .searchout .right .tbot {
 	margin-top: 57px;
 	text-align: center;
 }
+#image-gallery {
+	padding-top: 76px !important;
+}
+#image-gallery .title h2 {
+	letter-spacing: -2px;
+}
+#image-gallery .description p {
+	margin: 0 auto 50px auto;
+}
+.sec_boxes .boxes-bottom {
+	margin-top: 50px;
+}
+.boxes-bottom .btn-boxes {
+	padding: 16px 41px 15px 41px;
+	font-size: 15px;
+}
 
 footer {
-	margin-top: 82px;
+	margin-top: 91px;
 	border-top: 3px solid #eeeeee;
-	padding-top: 80px;
+	padding-top: 68px;
+}
+footer .container {
+	/*padding-left: 15px;*/
 }
 footer .row.ftop {
-	display: table;
+	
 	padding-bottom: 60px;
 }
 footer .ftable {
-	display: table-cell;
-	vertical-align: top;
+	
 }
-footer .ftable div {
-	display: table-cell;
-	vertical-align: middle;
-	height: 100%;
+footer .ftable .row {
+	display: flex;
+	align-items: center;
 }
 footer .ftable div h5 {
 	font-size: 20px;
-	vertical-align: middle;
+	
 }
 footer .ftable div p {
 	font-family: BrownStdLight;
 	font-size: 15px;
 	text-align: left;
-	vertical-align: middle;
-}
-footer .ftable div.left {
 	
 }
+footer .ftable div.left {
+	text-align: right;
+}
 footer .ftable div.right {
-	vertical-align: top;
-	padding-top: 10px;
-	padding-left: 30px;
+	
+	padding-top: 21px;
+	align-self: flex-start;
 }
 footer .fmiddle {
-	padding-top: 70px;
+	padding-top: 80px;
 	text-align: center;
-	padding-bottom: 77px;
+	padding-bottom: 83px;
 }
 footer .fmiddle h4 {
 	font-size: 24px;
@@ -958,12 +976,12 @@ footer .search-form {
 }
 footer .fbottom {
 	border-top: 1px solid #2f2a2c;
-	padding-top: 80px;
-	padding-bottom: 55px;
+	padding-top: 79px;
+	padding-bottom: 60px;
 }
 footer .fbottom h5 {
 	font-size: 20px;
-	margin-bottom: 19px;
+	margin-bottom: 16px;
 }
 footer .fbottom ul {
 	list-style: none;
@@ -972,7 +990,16 @@ footer .fbottom ul {
 footer .fbottom ul li {
 	font-size: 15px;
 	font-family: BrownStdLight;
-	line-height: 31px;
+	line-height: 28px;
+}
+footer .fbottom .block2 {
+	padding-left: 28px;
+}
+footer .fbottom .block3 {
+	padding-left: 60px;
+}
+footer .fbottom .block4 {
+	padding-left: 43px;
 }
 footer .fbottom ul#follow_us {
 	
@@ -1001,6 +1028,9 @@ footer .fcopy-right .left {
 	line-height: 38px;
 	font-family: BrownStdLight;
 	font-size: 16px;
+}
+.fcopy-right .right img {
+    margin-left: 13px;
 }
 
 
